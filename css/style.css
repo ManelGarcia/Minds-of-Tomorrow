@@ -1,0 +1,157 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+#header {
+    text-align: center;
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    padding: 30vh 100px;
+    height: 100vh;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#section1 {
+    padding: 1% 9%;
+    font-size: 30px;
+}
+
+#section1 h1 {
+    font-size: 75px;
+}
+
+#section1 img {
+    width: 100%;
+}
+
+#section2 {
+    background-color: #34eba2;
+    text-align: center;
+    padding: 0.5% 5% 2% 5%;
+}
+
+#section2 h1 {
+    font-size: 75px;
+}
+
+#section2 img {
+    width: 70%;
+}
+
+#section3 {
+    height: cover;
+    float: right;
+    padding: 3% 5%;
+    font-size: 30px;
+    padding: 1% 4% 1% 4%;
+}
+
+#section3 h1 {
+    font-size: 75px;
+}
+
+#section3 img {
+    width: 100%;
+    padding: 100px 50px 50px 50px;
+}
+
+#section4 .gallery {
+    margin-bottom: -4px;
+}
+
+#section4 img {
+    width: 100%;
+}
+
+#section5 {
+    background-color: #34a2eb;
+    font-size: 39px;
+    text-align: center;
+    padding: 0.5% 5%;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+    padding: 3.5% 8%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+}
+
+.gallery {
+    width: 25%;
+    float: left;
+}
+
+@media screen and (max-width: 700px) {
+    #header {
+        padding: 20vh 5px;
+        font-size: 30px;
+        background-size: cover;
+    }
+    .column2 {
+        width: 100%;
+    }
+    #section1 {
+        padding: 5% 8%;
+        font-size: 10px;
+    }
+    #section1 h1 {
+        font-size: 22px;
+    }
+    #section2 h1 {
+        font-size: 24px;
+    }
+    .gallery {
+        width: 50%;
+    }
+    #section2 {
+        padding: 2% 5% 2% 5%;
+        font-size: 15px;
+    }
+    #section3 h1 {
+        font-size: 23px;
+    }
+    #section3 h2 {
+        font-size: 16px;
+    }
+    #section3 h1,
+    #section3 h2 {
+        padding: 0% 10% 2% 10%;
+    }
+    #section3 img {
+        width: 100%;
+        padding: 0px 10px 00px 10px;
+    }
+    #section5 {
+        font-size: 10px;
+    }
+    #footer {
+        font-size: 13px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .column4 {
+        width: 50%;
+    }
+}
